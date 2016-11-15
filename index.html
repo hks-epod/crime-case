@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/simple-sidebar.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Nunito:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:300,400,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic' rel='stylesheet' type='text/css'>
+  <title>BCURE case study: Using GIS technology for targeted policing in Sarghoda, Pakistan</title>
+</head>
+<body>
+
+<!-- No header! -->
+<div id="wrapper">
+
+<!-- Sidebar -->
+  <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+          <li class="sidebar-brand">
+            <a href="http://epod.cid.harvard.edu/" target="_blank"><img alt="EPoD logo" src="img/HKSlogo_EPoD_digitalHR.png" class="img-sidebar"></a>
+          </li>
+          <div id="sidestyle">
+            <li>
+                <a href="#dialogue">A dialogue on crime data</a>
+            </li>
+            <li>
+                <a href="#project">The Project: Crime mapping in Sarghoda</a>
+            </li>
+            <li>
+                <a href="#changing">Changing practice</a>
+            </li>
+            <h5><a href="http://epod.cid.harvard.edu/bcure#widget-6">Return to the BCURE Pilot Project Cases</a></h5>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <li>
+              <a href="https://www.gov.uk/government/organisations/department-for-international-development"><img src="img/UKaid.png" alt="UKaid" width="50px"></a>
+            </li>
+            <li>
+              <div class="small-caption">
+              <br>
+                <p>Based on a project which was partly funded by UK aid. All photographs, unless otherwise indicated, copyright Evidence for Policy Design.</p> 
+                <p>If you have questions or comments, please <a href="mailto:EPoD@hks.harvard.edu">contact us.</a></p>    
+              </div>
+            </li>
+          </div>
+      </ul>
+  </div>
+<!-- end sidebar -->
+
+<!-- Main story -->
+<div id="page-content-wrapper">
+
+
+<div class="container-fluid test">
+  <div class="row">
+      <h1>BCURE Case: Using GIS technology for targeted policing in Sarghoda, Pakistan</h1>
+      <hr>
+      <h5>by <a href="http://epod.cid.harvard.edu/">Evidence for Policy Design</a></h5>
+      <h5><span id="datetime">November 2016</span></h5>
+
+  <img src="img/Crime pic 1_SM.jpg" class="img-body" alt="Crime Pic.">
+  
+    <section class="col-sm-8 introduction">
+      <p class="itl">In big cities, research on geographical tendencies in crime incidents, along with mapping technology, have helped police departments target their patrols efficiently and cut crime where it happens. In small cities and rural areas, however, crime incidents show a different geographical distribution, so both technology and policing methods must be adapted for greatest impact. In a 2015 pilot project, researchers took a mobile phone-based mapping technology that was informing policing methods in the large city of Lahore, Pakistan and adapted it for use in Sarghoda, a semi-urban district in Punjab province. This case examines the kind of human adaptations technology that needs to be scaled across geographical areas and be taken up by users, and it shows how data is informing a major shift in how Pakistan’s police deal with crime.</p>
+    </section>
+
+    <section class="col-sm-8">
+      <h2 id="dialogue">A dialogue on crime data</h2>
+      
+      <p>On an afternoon in March 2014, a group of 15 researchers and senior managers from police departments and the civil service sat around a table in Lahore, Pakistan, talking about data. It was day two of a 
+      <button type='button' 
+                class='btn btn-link btn-inline' 
+                data-placement='bottom' 
+                data-toggle='popover'
+                data-html='true' 
+                title='Policy Dialogue event'
+                data-content='
+                
+                <p>Policy Dialogues constitute one of the main activities under the <a href="http://epod.cid.harvard.edu/bcure" target="_blank">Building Capacity to Use Research Evidence (BCURE)</a> programme being implemented by Evidence for Policy Design (EPoD) at Harvard Kennedy School and funded by UK Aid. This event was hosted by EPoD and its close collaborator the <a href="http://cerp.org.pk" target="_blank">Center for Economic Research in Pakistan (CERP)</a>, at the  <a href="http://www.nspp.gov.pk" target="_blank">National School of Public Policy (NSPP)</a>.
+                </p>
+
+
+                '>Policy Dialogue event <span class="glyphicon glyphicon-new-window"></span>
+
+        </button> 
+        on Civil Service Reform in Pakistan, and this was the time reserved for breakout sessions – small groups that gave members of the research and policy communities an opportunity to sit face-to-face in small groups, make connections, field ideas around a central theme, and create a presentation to deliver back to the entire conference. Dr Ali Cheema, Senior Research Fellow at the <a href="http://ideaspak.org" target="_blank">Institute of Development and Economic Alternatives (IDEAS)</a> and a founding member of <a href="http://cerp.org.pk" target="_blank">CERP</a>, was leading this group, which focused on using data to inform policing methods.
+        </p>
+      </section>
+
+      <div class="splash"> 
+<figure>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/4g6pqEkJl5I" frameborder="0" allowfullscreen></iframe>
+   <figcaption>Watch participants describe the BCURE Policy Dialogue on Civil Service reform.</figcaption>
+</figure>
+</div> 
+
+<!-- <div class="container-fluid test">
+  <div class="row"> -->
+    <section class="col-sm-8">
+    <p>Cheema and his team had been conducting research within the Lahore Police Department to find ways to address the rising crime rate. They were considering a central question: how was crime geographically distributed, and how should police patrols be conducted in response?</p>
+
+    <p>For decades, researchers and police officials around the world had debated whether crime happened in a random geographic distribution – in which case it made sense for police to patrol widely in police cars – or whether it was concentrated in certain neighbourhoods and on certain street corners, in which case police should focus on such ‘hotspots.’ This was an important distinction, because it led to a number of related questions that had relevance for spending and strategy. For example, if police visibility deters crime then governments should invest in creating a broad presence, which is expensive in terms of both man hours and petrol. Until now, the police leaders in Lahore and other cities across Pakistan had operated under the traditional assumption that crime occurred in a random geographical spread. But research in the US and UK had shown that, in those countries at least, crime incidents tend to cluster in hotspots, and random-patrol policing has no deterrence effect.
+    (Click the button on the right to read more.)</p>
+  </section>
+
+    <section class="col-sm-3 pull-right aside">
+      <div>
+        <button type='button' 
+                class='btn btn-lg positionning--button-3' 
+                data-placement='left' 
+                data-toggle='popover'
+                data-html='true' 
+                title='Evidence on random-patrol versus hotspot policing in the U.S.'
+                data-content='
+                  <p>The <a href="https://www.ncjrs.gov/pdffiles1/Digitization/42537NCJRS.pdf" target="_blank">Kansas City Preventive Patrol Experiment of 1974</a> was not only the first rigorous test of the effect of police visibility on crime rates, it was one of the first large-scale experiments for policy decisions in America. Comparing three types of policing – one where officers only responded to calls, a second where regular random-coverage patrols took place, and a third where those patrols were increased by 100–200 percent – the experiment found that increased patrols were not noticed by citizens, lead to no greater citizen satisfaction, and did not reduce crime.</p>
+
+                  <p>Over recent decades, a string of rigorous studies in the U.S. – many supported by the <a href="http://www.nij.gov/Pages/welcome.aspx" target="_blank">National Insitute of Justice</a> – have yielded <a href="https://www.crimesolutions.gov/PracticeDetails.aspx?ID=8" target="_blank">complementary results</a>. An influential <a href="http://cebcp.org/evidence-based-policing/the-matrix/micro-places/micro-places-braga-et-al-2012/" target="_blank">2012 study</a> looked at a program in Boston in which police officers worked with community members to identify hotspots and apply “problem-oriented policing” interventions, ranging from crime prevention to social service improvements. The program was associated with a statistically significant 17 percent reduction in violent crimes in the treatment areas.</p>
+
+                  <p>Reviewing the experimental literature on the random-patrol technique, and evidence synthesis produced by IDEAS said, “Overall, these studies suggest that preventive patrols have no measurable impact on crime and are burdensome in terms of the police resources that are used.” A lingering gap in the literature, however, is the extent to which hotspot policing displaces crime to other locations – a question that real-time crime mapping can begin to answer.</p>
+
+                  
+                '>Evidence on random-patrol versus hotspot policing in the U.S.<span class="glyphicon glyphicon-new-window"></span>
+        </button>
+      </div>
+    </section>
+ 
+<div class="splash"> 
+<figure>
+   <img src="img\Cheema_2_MED.jpg" class="img-body" alt="Picture Ali Cheema">
+   <figcaption>Dr. Ali Cheema at the 2014 BCURE Policy Dialogue on Civil Service Reform, Lahore.</figcaption>
+</figure>
+</div> 
+
+<!-- <div class="container-fluid test">
+  <div class="row"> -->
+    <section class="col-sm-8">
+    <p>To determine spatial distribution of crime in Lahore, Cheema and his team had to overcome certain hurdles. Pakistan doesn’t use specific street addresses or postcodes, which makes it difficult to pinpoint locations, and although the Lahore Police Department had a computerized data-entry system in place, it did not geocode information. So the researchers began in quite a low-tech manner: they handed out detailed paper maps to precincts and asked officers to mark crime scenes with pushpins.</p>
+
+    <p>Soon, they saw pins start to cluster in certain spots. But soon after that, the maps started to fray, the pins to fall out, and departmental attention to stray.</p>
+    <p>Around that time, Zulfiqar Hameed had become Deputy Inspector General of Investigations for Lahore – a fortuitous appointment, because he was interested in incorporating data and evidence into police practice. Hameed was there at the table contributing to the BCURE Policy Dialogue. So were representatives from the <a href="http://www.nij.gov/Pages/welcome.aspx" target="_blank">Technology for People Initiative (TPI)</a> at the Lahore University of Management Sciences. Under the direction of Professor Sohaib Khan, TPI had collaborated with the <a href="https://www.pitb.gov.pk" target="_blank">Punjab Information Technology Board (PITB)</a> to develop the tool that allowed the next stage in Cheema’s research: an app that allowed for real-time digital recordkeeping. When police arrived at a crime scene, they used smartphones to take a picture and punch in the answers to a number of questions. The app then sent the information along with the geo-stamped location to a central server.</p> 
+
+    <p>The TPI/PITB team also developed an interface that automatically generated both spatial patterns and time trends from the data, giving Lahore Police a valuable decision-making tool. Cheema showed the group some maps that had been generated.</p>
+    </section>
+
+<div class="splash"> 
+<figure>
+   <img src="img\Lahore_neighborhoods.jpg" class="img-body" alt="Lahore neighborhoods">
+   <figcaption>Hotspot neighbourhoods across Lahore.</figcaption>
+</figure>
+</div> 
+
+<!-- <div class="container-fluid test">
+  <div class="row"> -->
+
+<div class="splash"> 
+<figure>
+   <img src="img\High Court.png" class="img-body" alt="High Court">
+   <figcaption>Distribution of crimes within High Court, Lahore’s highest-crime neighbourhood.</figcaption>
+</figure>
+</div> 
+
+<!-- <div class="container-fluid test">
+  <div class="row"> -->
+    <section class="col-sm-8">
+    <p>The maps gave compelling visual evidence that crime was concentrated in neighborhoods and within neighborhoods around hotspots.</p>
+
+    <p>The breakout group compiled the materials and presented them to the general Policy Dialogue audience. Cheema says, “At that point, the tool hadn’t produced enough data for us to come up with a lot of analysis yet, but we felt like there was a story there. The question was, what do we <i>do</i> with this stuff?”</p>
+</section>
+
+ <section class="col-sm-8">
+   <h2 id="project">The Project: Crime mapping in Sarghoda</h2>
+
+      <p>Describing how the Policy Dialogue audience reacted to the mapping tool and its data, Cheema says, “There seemed to be an appetite for it. People were very interested, quite intrigued.” To roll out the tool across all of Lahore would require further piloting, however, especially if it were to lead to the kind of changes that seemed to be in order. The Lahore Police Department had a shortage of officers, so wide testing would have to take place before it made any change in patrolling strategy.</p>
+
+      <p>Another question that emerged from the discussion was whether smaller cities and rural areas would show the same kind of crime hotspots as Lahore.</p>
+
+      <p>The <a href="http://epod.cid.harvard.edu/bcure" target="_blank">Building Capacity to Use Research Evidence (BCURE)</a> initiative at EPoD funded by UK Aid, which had supported the Policy Dialogue, also supported a number of pilot projects intended to create ways for policy actors to utilize data and research evidence to improve their decision making. An idea emerged from the Policy Dialogue and subsequent discussions, to pilot the mapping tool in a small city. This would serve the dual purpose of further testing the tool and gathering data on spatial distribution of crime in another environment.</p>
+
+      <p>Cheema and his team identified a small city and began working with the research-friendly police superintendent there. Before long, however, that official was transferred and replaced by one with little interest in the project. His scepticism of the tool and of data in general was evident, and the project ground to a halt. (For thoughts on the dangers – and unexpected benefits – of frequent transfers among evidence-friendly policymakers, see the BCURE case on Tax Visualization).</p>
+
+      <p>The pilot was at risk of failing, yet an aspect of the BCURE agenda was to exploit existing relationships with governmental ‘evidence champions.’ Zulfiqar Hameed, the Lahore Deputy Inspector General who had helped Cheema present results at the Policy Dialogue, was transferred and made Regional Police Officer of Sarghoda, a district that included a city of 500,000 inhabitants as well as rural areas. To this point, there had been no attempt to analyse crime across spatial dimensions in Sarghoda. Cheema saw this as an opportunity to test the system in a less urbanized setting in collaboration with a proven supporter who already knew the mapping tool and its potential benefits.</p>
+
+      <p>The team had to adjust the tool for the setting. In Pakistan as elsewhere, individual police officers operate in an area called a ‘beat.’ In Lahore police beats were geographically small, so they served as a good basic level at which to aggregate data. In Sarghoda, however, beats were larger and sparser and their borders less defined than in Lahore.</p>
+
+      <p>In the course of the BCURE pilot, the team mapped all 27 police station domains in Sargodha district, defining boundaries of villages and beats. They entered into the map a year’s worth of crime data that had been recorded but not geocoded. They also trained officers in how to use the tool and developed with Hameed a plan on how to continue building capacity and institutionalize the tool into day-to-day practice. Finally, they produced initial reports on the spatial distribution of crime incidents.</p>
+
+  </section>
+
+<div class="splash"> 
+<figure>
+   <img src="img\mapofsarghodha.png" class="img-body" alt="Map of Sarghoda">
+</figure>
+</div> 
+
+<!-- <div class="container-fluid test">
+  <div class="row"> -->
+    <section class="col-sm-8">
+    <p>Along the way they encountered some of the resistance that is common when trying to change practice in a department where employees are used to acting based solely on their own – often substantial – knowledge. Police officers knew their own beats, they said, knew where crimes happened, and shouldn’t be asked to change based on a machine-made map. However, Hameed performed an experiment that helped change their minds. He called a meeting with patrol officers and asked them to sit down with a map and mark the areas of highest crime. He then revealed the actual saturation of crime incidents in their beats as recorded by the mapping tool and showed the significant mismatch between their perceptions and fact. This meeting helped thaw resistance to evidence and analysis and led to greater openness to the crime mapping project.</p>
+
+    <p>A short-term result of the pilot project was that it changed decision-making in Sarghoda police. The tool exposed crime clusters, and Hameed altered patrolling patterns accordingly. Also, the research team and their police partners observed that the mere act of mapping beats naturally created a system of accountability: delineating boundaries had the effect of naming who was responsible for the area within them and calling for rationalization of staffing decisions.</p>
+
+    <p>The project promised long-term benefits, too, in proving that the tool could be a useful permanent part of policing in Sarghoda. With the completion of the pilot project, the researchers turned the tool over to the <a href="http://uu.urbanunit.gov.pk/index.aspx" target="_blank">Urban Unit</a>, a semi-public body established in 2006 to provide a number of mainly technical services across the government of Punjab province. Work is now underway to create a data dashboard and a mechanism for real-time crime mapping in Sarghoda.</p>
+
+    <p>An external evaluator of the BCURE pilot project said that, “It appears this mechanism was successful in achieving its stated aim, with respondents suggesting that data presented in visual form through the Pilot Projects was revelatory, challenged people’s preconceptions, and sparked enthusiasm amongst civil servants.”</p>
+  </section>
+
+<div class="splash"> 
+<figure>
+   <img src="img\Police.jpg" class="img-body" alt="Police">
+</figure>
+</div> 
+
+<!-- <div class="container-fluid test">
+  <div class="row"> -->
+    <section class="col-sm-8">
+    <h2 id="changing">Changing practice</h2>
+
+    <p>Back at the 2014 BCURE Policy Dialogue, Cheema  had presented three questions to the group of decision-makers in the breakout session. “I asked them, was this tool relevant to them, what kind of analysis would matter, and what could the police do if, for example, we found crime to be highly concentrated in certain areas?”</p>
+
+    <p>The answers he received were that the tool was relevant, and the evidence of hotspots could lead to a change in practice. Eventually, in Lahore the team would show that 7.5 percent of neighborhoods were the site of more than half of the city’s crimes, and that these hotspots stayed constant over time. Such crime concentrations were not as dramatic as in American cities, but they were high nonetheless.</p>
+
+    <p>The question now turns to how the police will act on this evidence. “Now you know what the problem is,” says Cheema. “You’ve done the pathology work, now what’s the pill you’re going to dispense.”</p>
+
+    <p>It is a major step forward that Lahore is considering moving away from random patrolling and toward targeted policing. The choice may seem obvious, however it is one that was never entertained before the crime mapping project. Another policy response on the table is to invest in intelligence-gathering in areas of high crime saturation.</p>
+
+    <p>In Sarghoda, while hotspots were clearly visible, further analysis is needed to determine their degree. The policy response may be different, as options exist in small cities that don’t exist in large ones. Working with the community can have a far greater impact in areas where demographic change is less constant and people easily recognize their neighbours. The migration that churns Lahore’s population may render a Neighbourhood Watch program ineffective; this is far less of an issue in Sarghoda.</p>
+    </section>
+
+            <aside class="col-sm-3 pull-right">
+        <blockquote class="blockquote" cite="https://www.opensocietyfoundations.org/voices/can-hot-spot-policing-help-solve-pakistan-s-crime-problem">
+      By committing the majority of its policing efforts to these few locations, cities like Lahore can distribute their limited resources more efficiently.
+      <a href="https://www.opensocietyfoundations.org/voices/can-hot-spot-policing-help-solve-pakistan-s-crime-problem" target="_blank">Bisma Khan & Zulfiqar Hameed, Open Society Foundations blog, 5 December 2015</a>
+        </blockquote>
+      </aside> 
+
+<!-- <div class="container-fluid test">
+  <div class="row"> -->
+    <section class="col-sm-8">
+    <p>Decisions have yet to be made and their effects measured. Yet there are more options on the table now, and they are being discussed at a deeper and more informed level than ever before. ■</p>
+    </section>
+
+      <section class="col-sm-8">
+      <br>
+      <p>Text by V. McIntyre. Design by Gabrielle Hauray.</p> 
+  </section>
+
+  </div> <!-- row -->
+</div> <!-- container -->
+
+
+</div> <!-- #page-content-wrapper -->
+</div> <!-- #wrapper -->
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
