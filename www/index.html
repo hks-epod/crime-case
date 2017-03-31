@@ -89,7 +89,15 @@
       <p>Until now, the police leaders in Lahore and other cities across Pakistan had operated under the traditional assumption that crime occurred in a random geographical spread. But research in the US and UK had shown that, in those countries at least, crime incidents tend to cluster in hotspots, and random-patrol policing has no deterrence effect. (Click the button on the right to read more.)</p>
       </section>
 
-    <section class="col-sm-3 pull-right aside">
+    <section class="col-sm-8">
+    <p>Working with researchers is far from standard practice for police in Pakistan. “It’s very uncommon,” Hameed says. “As far as I’m aware, in Pakistan this was probably the first time police and researchers worked together on crime issues.”</p>
+
+    <p>To determine spatial distribution of crime in Lahore, Cheema and Hameed had to overcome certain hurdles. Pakistan doesn’t use specific street addresses or postcodes, which makes it difficult to pinpoint locations, and although the Lahore Police Department had a data-entry system in place, it did not geocode information. So the research team began in quite a low-tech manner: they handed out detailed paper maps to precincts and asked officers to mark crime scenes with pushpins. </p>
+
+    <p>Soon, they saw pins start to cluster in certain spots. But soon after that, the maps started to fray, the pins to fall out, and departmental attention to stray.</p>
+    </p>
+    </section>
+      <section class="col-sm-3 pull-right aside">
       <div>
         <button type='button' 
                 class='btn btn-lg positionning--button-3' 
@@ -109,15 +117,8 @@
         </button>
       </div>
     </section>
-
-    <section class="col-sm-8">
-    <p>Working with researchers is far from standard practice for police in Pakistan. “It’s very uncommon,” Hameed says. “As far as I’m aware, in Pakistan this was probably the first time police and researchers worked together on crime issues.”</p>
-
-    <p>To determine spatial distribution of crime in Lahore, Cheema and Hameed had to overcome certain hurdles. Pakistan doesn’t use specific street addresses or postcodes, which makes it difficult to pinpoint locations, and although the Lahore Police Department had a data-entry system in place, it did not geocode information. So the research team began in quite a low-tech manner: they handed out detailed paper maps to precincts and asked officers to mark crime scenes with pushpins. </p>
-
-    <p>Soon, they saw pins start to cluster in certain spots. But soon after that, the maps started to fray, the pins to fall out, and departmental attention to stray.</p>
-
-    <div class="splash"> 
+    
+<div class="splash"> 
 <figure>
    <img src="img\Cheema_2_MED.jpg" class="img-body" alt="Picture Ali Cheema">
    <figcaption>Researcher and Police Officer: Dr. Ali Cheema (left) and Zulfiqar Hameed (right) at the 2014 BCURE Policy Dialogue on Civil Service Reform, Lahore.</figcaption>
@@ -127,7 +128,7 @@
 <!-- <div class="container-fluid test">
   <div class="row"> -->
     <section class="col-sm-8">
-    <p><p>The team enlisted the help of Professor Sohaib Khan, director of the <a href="http://www.nij.gov/Pages/welcome.aspx" target="_blank">Technology for People Initiative (TPI)</a> at LUMS. TPI collaborated with the <a href="https://www.pitb.gov.pk" target="_blank">Punjab Information Technology Board (PITB)</a> to develop the tool that allowed the next stage of the research: an app that allowed for real-time digital record-keeping. When police arrived at a crime scene, they used smartphones to take a picture and punch in the answers to a number of questions. The app then sent the information along with the geo-stamped location to a central server. The TPI/PITB team developed an interface that automatically generated both spatial patterns and time trends from the data</p> 
+    <p>The team enlisted the help of Professor Sohaib Khan, director of the <a href="http://www.nij.gov/Pages/welcome.aspx" target="_blank">Technology for People Initiative (TPI)</a> at LUMS. TPI collaborated with the <a href="https://www.pitb.gov.pk" target="_blank">Punjab Information Technology Board (PITB)</a> to develop the tool that allowed the next stage of the research: an app that allowed for real-time digital record-keeping. When police arrived at a crime scene, they used smartphones to take a picture and punch in the answers to a number of questions. The app then sent the information along with the geo-stamped location to a central server. The TPI/PITB team developed an interface that automatically generated both spatial patterns and time trends from the data.</p> 
 
     <p>In March 2014, the team attended a Policy Dialogue event on Civil Service Reform in Pakistan, part of the <a href="http://epod.cid.harvard.edu/bcure" target="_blank">Building Capacity to Use Research Evidence (BCURE)</a> programme funded by UK Aid from the UK government and implemented by Evidence for Policy Design (EPoD) at Harvard Kennedy School in collaboration with the <a href="http://cerp.org.pk" target="_blank">Center for Economic Research in Pakistan (CERP)</a>. Cheema and Hameed presented crime maps at an afternoon reserved for breakout sessions – small groups that gave members of the research and policy communities an opportunity to sit face-to-face, make connections, field ideas around a central theme.</p>
     </section>
@@ -166,7 +167,7 @@
 
       <p>The BCURE initiative also supported a number of pilot projects intended to create ways for policy actors to utilize data and research evidence to improve their decision making. An idea emerged from the Policy Dialogue and subsequent discussions, to pilot the mapping tool in a small city. This would serve the dual purpose of further testing the tool and gathering data on spatial distribution of crime in another environment.</p>
 
-      <p>Cheema and his team identified a small city where the police superintendent was eager to have their help to use the tools of data and evidence to improve crime-monitoring. Before long, however, that official was transferred and replaced by one with little interest in the project. His scepticism of the tool and of data in general was evident, and the project ground to a halt. (For thoughts on the dangers – and unexpected benefits – of frequent transfers among evidence-minded policymakers, see the <a href="http://epod.hmdc.harvard.edu/tax-case/#Property" target="_blank">BCURE case on Tax Visualization</a>).</p>
+      <p>Cheema and his team identified a small city where the police superintendent was eager to have their help to use the tools of data and evidence to improve crime-monitoring. Before long, however, that official was transferred and replaced by one with little interest in the project. His scepticism of the tool and of data in general was evident, and the project ground to a halt. (For thoughts on the dangers – and unexpected benefits – of frequent transfers among evidence-minded policymakers, see the <a href="https://tax-case.herokuapp.com/index.html" target="_blank">BCURE case on Tax Visualization</a>).</p>
 
       <p>The pilot was at risk of failing, yet an aspect of the BCURE agenda was to exploit existing relationships with governmental ‘evidence champions’. Zulfiqar Hameed was transferred and made Regional Police Officer of Sargodha, a region that included a city of 500,000 inhabitants as well as rural areas. To this point, there had been no attempt to analyse crime across spatial dimensions in Sargodha, and Hameed was keen test the system he had helped develop. Cheema saw this as an opportunity to test the system in a less urbanized setting in collaboration with a proven supporter.</p>
 
@@ -199,7 +200,6 @@
    <img src="img\Police.jpg" class="img-body" alt="Police">
 </figure>
 </div> 
-
 <!-- <div class="container-fluid test">
   <div class="row"> -->
     <section class="col-sm-8">
